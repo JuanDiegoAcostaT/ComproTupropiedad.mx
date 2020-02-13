@@ -1,0 +1,554 @@
+@media (max-width: 1200px){
+    .container{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .main__header--img img{
+
+        width: 280px;
+    }
+
+    .main__header--title2{
+        font-size: 130px;
+    }
+    .main__header--title3{
+        padding-left: 410px;
+    }
+    .footer__logo{
+        padding-right: 30px;
+    }
+
+}
+
+
+@media (max-width: 992px){
+    .container{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .main__header--img img{
+
+        width: 280px;
+    }
+
+    .main__header--title2{
+        font-size: 130px;
+    }
+    .main__header--title3{
+        padding-left: 410px;
+    }
+    .footer__logo{
+        padding-right: 30px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .container{
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+
+
+    .header__info{
+        font-size: 10px;
+    }
+
+
+   .main__header{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       padding-left: 0;
+   }
+
+   .main__header--img{
+    display: none;
+}
+
+   .main__header--title1{
+    padding-left: 0;
+
+}
+.main__header--title2{
+    padding-left: 0;
+}
+.main__header--title3{
+    padding-left: 0;
+}
+
+.form1{
+    display: none;
+
+    
+}
+
+.form2{
+
+    display: block;
+
+}
+
+.form__box{
+    padding-bottom: 60px;
+}
+
+
+
+.form__box--container{
+    font-weight: bold;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__box--btn{
+
+    margin-left: 5px;
+}
+
+.footer__info{
+    font-size: 10px;
+
+}
+
+.footer__logo{
+    padding-right: 30px;
+}
+
+
+}
+
+
+@media (max-width: 480px){  
+    .container{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .header__logo{
+        margin-left: 0;
+        
+    }
+    
+    .header__info{
+        margin-right: 0;
+        font-size: 10px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .icon-facebook2:before {
+        color: var(--principal-color);
+        background-color: var(--white-color);
+        margin-left: 0px;
+        margin-top:0px;
+        font-size:25px;
+        content: "\ea91";
+        
+      }
+    
+    .main__header--img{
+        display: none;
+    }
+
+    .main__header--title1{
+     font-size: 52px;
+    
+    }
+    .main__header--title2{
+     font-size: 52px;
+    }
+    .main__header--title3{
+     font-size: 52px;
+    }
+
+    .form__callToAction{
+        text-align: center;
+        font-size: var(--font--formBox--callToAction);
+        font-size: 20px;
+    }
+    .municipios{
+        width: 150px;
+    }
+    select {
+        width: 100px;
+    }
+
+    .comments1{
+
+        display: none;
+      
+      }
+
+    .comments2{
+
+        display: block;
+      
+      }
+      
+
+    .form__box--btn{
+        margin-left: 0px;
+        padding: 10px 10px 10px 10px;
+     }
+
+     .footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        
+    }
+
+    .footer__info{
+        margin-left: 0;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footer__logo{
+        margin-right: 0px;
+    }
+
+    /* ============================================= */
+    /* SUCCES.HTML */
+    .main__success{
+        height: 400px;
+    }
+
+}
+
+
+@media (max-width: 425px){  
+    .container{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .header__logo{
+        margin-left: 0;
+        
+    }
+    
+    .header__info{
+        margin-right: 0;
+        font-size: 10px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .icon-facebook2:before {
+        color: var(--principal-color);
+        background-color: var(--white-color);
+        margin-left: 0px;
+        margin-top:0px;
+        font-size:25px;
+        content: "\ea91";
+      }
+    
+    .main__header--img{
+        display: none;
+    }
+
+    .main__header--title1{
+     font-size: 52px;
+    
+    }
+    .main__header--title2{
+     font-size: 52px;
+    }
+    .main__header--title3{
+     font-size: 52px;
+    }
+
+    .form__callToAction{
+        text-align: center;
+        font-size: var(--font--formBox--callToAction);
+        font-size: 20px;
+    }
+    .municipios{
+        width: 150px;
+    }
+    select {
+        width: 100px;
+    }
+
+    .comments1{
+
+        display: none;
+      
+      }
+
+    .comments2{
+
+        display: block;
+      
+      }
+      
+
+    .form__box--btn{
+        margin-left: 0px;
+        padding: 10px 10px 10px 10px;
+     }
+
+     .footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        
+    }
+
+    .footer__info{
+        margin-left: 0;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footer__logo{
+        margin-right: 0px;
+    }
+
+    /* ============================ */
+    /* SUCCES.HTML */
+    .main__success{
+        height: 400px;
+    }
+
+}
+
+
+@media (max-width: 375px){  
+    .container{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .header__logo{
+        margin-left: 0;
+        
+    }
+    
+    .header__info{
+        margin-right: 0;
+        font-size: 10px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .icon-facebook2:before {
+        color: var(--principal-color);
+        background-color: var(--white-color);
+        margin-left: 0px;
+        margin-top:0px;
+        font-size:25px;
+        content: "\ea91";
+      }
+    
+    .main__header--img{
+        display: none;
+    }
+
+    .main__header--title1{
+     font-size: 52px;
+    
+    }
+    .main__header--title2{
+     font-size: 52px;
+    }
+    .main__header--title3{
+     font-size: 52px;
+    }
+
+    .form__callToAction{
+        text-align: center;
+        font-size: var(--font--formBox--callToAction);
+        font-size: 20px;
+    }
+    .municipios{
+        width: 150px;
+    }
+    select {
+        width: 100px;
+    }
+
+    .comments1{
+
+        display: none;
+      
+      }
+
+    .comments2{
+
+        display: block;
+      
+      }
+      
+
+    .form__box--btn{
+        margin-left: 0px;
+        padding: 10px 10px 10px 10px;
+     }
+
+     .footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        
+    }
+
+    .footer__info{
+        margin-left: 0;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footer__logo{
+        margin-right: 0px;
+    }
+
+    /* ================================ */
+    /* SUCCES.HTML */
+
+    .main__success{
+        height: 400px;
+    }
+
+}
+
+
+@media (max-width: 360px){  
+    .container{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .header__logo{
+        margin-left: 0;
+        
+    }
+    
+    .header__info{
+        margin-right: 0;
+        font-size: 10px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .icon-facebook2:before {
+        color: var(--principal-color);
+        background-color: var(--white-color);
+        margin-left: 0px;
+        margin-top:0px;
+        font-size:25px;
+        content: "\ea91";
+      }
+    
+    .main__header--img{
+        display: none;
+    }
+
+    .main__header--title1{
+     font-size: 52px;
+    
+    }
+    .main__header--title2{
+     font-size: 52px;
+    }
+    .main__header--title3{
+     font-size: 52px;
+    }
+
+    .form__callToAction{
+        text-align: center;
+        font-size: var(--font--formBox--callToAction);
+        font-size: 20px;
+    }
+    .municipios{
+        width: 150px;
+    }
+    select {
+        width: 100px;
+    }
+
+    .comments1{
+
+        display: none;
+      
+      }
+
+    .comments2{
+
+        display: block;
+      
+      }
+      
+      
+
+    .form__box--btn{
+        margin-left: 0px;
+        padding: 10px 10px 10px 10px;
+     }
+
+     .footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        
+    }
+
+    .footer__info{
+        margin-left: 0;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footer__logo{
+        margin-right: 0px;
+    }
+
+
+    /* ============================= */
+    /* SUCCES.HTML */
+    .main__success{
+        height: 400px;
+    }
+
+}
+
+
+

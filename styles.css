@@ -1,0 +1,434 @@
+
+/* VARIABLES */
+
+:root{
+    --principal-color: #80BD01;
+    --dark-color: #231F20;
+    --white-color: #FFF;
+
+
+    --font-big: 63.751067px;
+    --font-big-2: 159.377668px;
+    --font--main--info--titles : 30px;
+    --font--main--info--li : 26.562945px;
+    --font--main--info--p : 21.250356px;
+    --font--formBox--callToAction : 17px;
+    --font--formBox--label : 22.578503px;
+
+
+    }
+
+
+/* ICONS */
+    @font-face {
+        font-family: 'icomoon';
+        src:  url('./icons/fonts/icomoon.eot?rdddn8');
+        src:  url('./icons/fonts/icomoon.eot?rdddn8#iefix') format('embedded-opentype'),
+          url('./icons/fonts/icomoon.ttf?rdddn8') format('truetype'),
+          url('./icons/fonts/icomoon.woff?rdddn8') format('woff'),
+          url('./icons/fonts/icomoon.svg?rdddn8#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+      }
+      
+      [class^="icon-"], [class*=" icon-"] {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'icomoon' !important;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+      
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      .icon-facebook2:before {
+        color: var(--principal-color);
+        background-color: var(--white-color);
+        margin-left: 400px;
+        margin-top: 20px;
+        font-size: 40px;
+        content: "\ea91";
+        cursor: pointer;
+      }
+
+
+/* CSS */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    margin-left: 204px;
+    margin-right: 204px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.header__logo{
+    margin-left: 20px;
+   
+}
+
+.header__logo img {
+    width: 300px;
+}
+
+.header__info{
+    margin-right: 20px;
+    text-align: right;
+}
+
+.header__info--number{
+    padding-bottom: 5px;
+}
+
+.header__info--gmail{
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+
+.header__info--span{
+    padding-bottom: 10px;
+}
+
+
+.main__header{
+    background-color: var(--principal-color);
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.main__header--title1{
+    color: var(--dark-color);
+    padding-left: 40px;
+    padding-top: 15px;
+    font-size: var(--font-big);
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+.main__header--title2{
+    color: var(--white-color);
+    padding-left: 350px;
+    font-size: var(--font-big-2);
+    margin: 0;
+}
+.main__header--title3{
+    color: var(--dark-color);
+    padding-left: 500px;
+    font-size: var(--font-big);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main__header--img{
+    position: absolute;
+    padding-top: 20px;
+}
+
+.main__info{
+    background-color: var(--dark-color);
+}
+
+.main__info--container{
+    padding-top: 20px;
+}
+
+.main__info--title{
+    font-size: var(--font--main--info--titles);
+    text-align: center;
+}
+
+.main__info ul {
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.main__info  li{
+    list-style: none;
+    font-size: var(--font--main--info--li);
+}
+
+.white{
+    color: var(--white-color);
+}
+
+.green{
+    color: var(--principal-color);
+}
+
+.main__info--footer{
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    font-size: var(--font--main--info--p);
+}
+
+.form1{
+    display: block;
+}
+
+.form2{
+    display: none;
+}
+
+.form__callToAction{
+    text-align: center;
+    font-size: var(--font--formBox--callToAction);
+    color: var(--dark-color);
+}
+
+.form__box{
+    background-color: var(--principal-color);
+    max-height: 100%;
+    font-size: var(--font--formBox--label);
+    font-weight: bold;
+    /* padding: -px 50px 40px 80px; */
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: var(--dark-color);
+    /* font-size: 15px; */
+}
+
+
+/* ------------------------------------------------------------------------- */
+
+.form__box--container{
+
+    
+    display: grid;
+    grid-template-rows: 33px 33px 33px 20px  33px 33px 33px 33px 33px 33px 20px  70px;
+    grid-template-columns: 280px 70px;
+
+    grid-template-areas: 'ask1 answer1'
+                         'ask2 answer2'
+                         'ask3 answer3'
+                         '.. ..'
+                         'ask4 answer4'
+                         'ask5 answer5'
+                         'ask6 answer6'
+                         'ask7 answer7'
+                         'ask8 answer8'
+                         'ask9 answer9'
+                         '.. ..'
+                         'ask10 answer10';
+
+                         grid-gap: 5px;
+    
+}
+
+/* --------------------------------------------------------------------------------- */
+
+.ask1{
+    grid-area: ask1;
+    text-align: right;
+    align-self: center;
+   
+}
+.ask2{
+    grid-area: ask2;
+    text-align: right;
+    align-self: center;
+}
+.ask3{
+    grid-area: ask3;
+    text-align: right;
+    align-self: center;
+}
+.ask4{
+    grid-area: ask4;
+    text-align: right;
+    align-self: center;
+}
+.ask5{
+    grid-area: ask5;
+    text-align: right;
+    align-self: center;
+}
+.ask6{
+    grid-area: ask6;
+    text-align: right;
+    align-self: center;
+}
+.ask7{
+    grid-area: ask7;
+    text-align: right;
+    align-self: center;
+}
+.ask8{
+    grid-area: ask8;
+    text-align: right;
+    align-self: center;
+}
+.ask9{
+    grid-area: ask9;
+    text-align: right;
+    align-self: center;
+}
+.ask10{
+    grid-area: ask10;
+    text-align: right;
+    align-self: center;
+}
+
+/* ---------------------------- */
+
+.answer1{
+    grid-area: answer1;
+    align-self: center;
+    justify-self: left;
+    padding-right: 250px;
+}
+.answer2{
+    grid-area: answer2;
+    align-self: center;
+    justify-self: left;
+    padding-right: 250px;
+
+}
+.answer3{
+    grid-area: answer3;
+    align-self: center;
+    justify-self: left;
+    padding-right: 250px;
+
+}
+.answer4{
+    grid-area: answer4;
+    align-self: center;
+    justify-self: left;
+     padding-right: 80px;
+
+}
+.answer5{
+    grid-area: answer5;
+    align-self: center;
+    justify-self: left;
+     padding-right: 20px;
+
+
+}
+.answer6{
+    grid-area: answer6;
+    align-self: center;
+    justify-self: left;
+    padding-right: 20px;
+
+
+}
+.answer7{
+    grid-area: answer7;
+    align-self: center;
+    justify-self: left;
+     padding-right: 20px;
+
+
+}
+.answer8{
+    grid-area: answer8;
+    align-self: center;
+    justify-self: left;
+    padding-right: 50px;
+
+
+}
+.answer9{
+    grid-area: answer9;
+    align-self: center;
+    justify-self: left;
+    padding-right: 50px;
+
+
+}
+.answer10{
+    grid-area: answer10;
+    padding-right: 400px;
+}
+
+/* //--------------------------------- */
+
+/* RESPONSIVE__TEXTAREA */
+.comments2{
+
+  display: none;
+
+}
+
+.form form {
+    margin-top: 60px;
+}
+
+.form__box--btn{
+   margin-left: 250px;
+   margin-top: 40px;
+   padding: 10px 90px 10px 90px;
+   background-color: var(--dark-color);
+   color: var(--principal-color);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.footer__info{
+    margin-left: 20px;
+    margin-top: 30px;
+   
+}
+
+
+
+.footer__logo img{
+    width: 300px;
+}
+
+.font-weight{
+    font-weight: 900;
+    color: var(--dark-color);
+}
+
+
+.uppercase{
+    font-size: 40px;
+}
+
+.green__text{
+    color: var(--principal-color);
+}
+
+
+
+h2{
+    margin-block-start: 3px !important; 
+    margin-block-end: 0px !important; 
+}
+
+/* ========================================================*/
+/* SUCCES.HTML */
+
+.main__success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--principal-color);
+    height: 600px;
+    font-size: 40px;
+}
